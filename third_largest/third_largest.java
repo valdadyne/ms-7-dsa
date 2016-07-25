@@ -5,6 +5,7 @@
 
 // use the main method only for calling the function where your logic lies. :-)
 
+<<<<<<< HEAD
 Public static ThirdGreatest(String[] strArr){
   String answer=null;
   String sorted=null;
@@ -27,3 +28,31 @@ Public static []main (string args){
   String[] testArr={"au","banana","alex","wave"};
     System.out.println(ThirdGreatest(testArr));
   }
+=======
+public class ThirdSort {
+
+    /**
+     * @param args the command line arguments
+     */
+    public String ThirdGreatest(String[]strArr){
+        String sortedString = "";
+        boolean finalSort =  true;
+        while(finalSort){
+            for(int i = 0; i < strArr.length-1; i++){
+                if(strArr[i].length() < strArr[i+1].length()){
+                    sortedString = strArr[i];
+                    strArr[i] = strArr[i+1];
+                    strArr[i+1]= sortedString;
+                    finalSort = false;
+                };
+            }
+        }
+        return strArr[2];
+    }
+    public static void main(String[] args) {
+        String[] myArr={"hello", "world", "before", "all"};
+        System.out.println(ThirdGreatest(myArr));
+    }
+
+}
+>>>>>>> f2cb726813d99a923abc5e0900986b0c11b362d9
