@@ -10,8 +10,8 @@
 // put the highest in its array
 // output the highest then output the lowest
 
-Public class MinAndMax{
-  Public static void main(String[]args){
+public class MinAndMax{
+  public static void main(String[]args){
     int numArray= int[]{-10,11,3,21,97,34,30};
     int maxNum=numArray[0];
     int minNum=numArray[0];
