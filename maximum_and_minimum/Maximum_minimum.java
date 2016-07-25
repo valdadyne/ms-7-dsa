@@ -19,6 +19,6 @@ public class MinAndMax{
       else if(numArray[i]<minNum) maxNum=numArray[i];
     }
    	System.out.println("Max value be: "+maxNum);
-		System.out.println("Min Value be: "+minNum);
+	System.out.println("Min Value be: "+minNum);
   }
 }
