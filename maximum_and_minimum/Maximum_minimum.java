@@ -11,14 +11,14 @@
 // output the highest then output the lowest
 
 public class MinAndMax{
-  public static void main(String[]args){
-    int numArray= int[]{-10,11,3,21,97,34,30};
+    int[] numArray= new int[]{-10,11,3,21,97,34,30};
     int maxNum=numArray[0];
     int minNum=numArray[0];
     for (int i=0;i<numArray.length;i++){
-      if (numArray[i]>maxNum) maxNum=numArray[i]
-      else if(numArray[i]<minNum) maxNum=numArray[i]
+      if (numArray[i]>maxNum) maxNum=numArray[i];
+      else if(numArray[i]<minNum) maxNum=numArray[i];
     }
-    system.out.println(maxNum,minNum);
+   	System.out.println("Max value be: "+maxNum);
+		System.out.println("Min Value be: "+minNum);
   }
 }
